@@ -409,3 +409,4 @@ FodyWeavers.xsd
 
 # Built Visual Studio Code Extensions
 *.vsix
+obj/Debug/net8.0/Tuplas_Operador_Ternario_Desconstrucao_de_Objeto_CSharp.assets.cache
