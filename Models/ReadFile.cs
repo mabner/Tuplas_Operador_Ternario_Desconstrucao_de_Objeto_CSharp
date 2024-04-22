@@ -12,11 +12,10 @@ namespace Tuplas_Operador_Ternario_Desconstrucao_de_Objeto_CSharp.Models
             try
             {
                 string[] lines = File.ReadAllLines(path);
-                return(true, lines, lines.Count());
+                return (true, lines, lines.Count());
             }
             catch (System.Exception)
             {
-                
                 return (false, new string[0], 0);
             }
         }
