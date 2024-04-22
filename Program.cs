@@ -2,15 +2,15 @@
 
 ReadFile file = new ReadFile();
 
-var(success, fileLines, lineCount) = file.ReadTxt("Files/SPEDFiscal.txt");
+var(success, _, lineCount) = file.ReadTxt("Files/SPEDFiscal.txt");
 
 if(success)
 {
     Console.WriteLine($"Line count:{lineCount}");
-    foreach(var line in fileLines)
-    {
-        Console.WriteLine(line);
-    }
+    // foreach(var line in fileLines)
+    // {
+    //     Console.WriteLine(line);
+    // }
 }
 else
 {
